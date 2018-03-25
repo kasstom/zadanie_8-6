@@ -11,10 +11,10 @@ console.log('Wynik działania: ' + wynikDzialania);
 
 
 // instrukcje warunkowe
-if ( wynikDzialania >= '1') {
+if ( wynikDzialania > 0) {
 	console.log('Wynik działania jest dodatni!');
 		} 
-else if ( wynikDzialania <= '-1') {
+else if ( wynikDzialania < 0) {
 	console.log('Wynik działania jest ujemny!');
 		}
 else {
