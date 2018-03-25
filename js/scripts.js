@@ -13,10 +13,8 @@ console.log('Wynik działania: ' + wynikDzialania);
 // instrukcje warunkowe
 if ( wynikDzialania > 0) {
 	console.log('Wynik działania jest dodatni!');
-		} 
-else if ( wynikDzialania < 0) {
+} else if ( wynikDzialania < 0) {
 	console.log('Wynik działania jest ujemny!');
-		}
-else {
+} else {
 	console.log('Wynik działania jest równy 0');
 	}
